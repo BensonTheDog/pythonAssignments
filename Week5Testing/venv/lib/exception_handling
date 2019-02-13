@@ -1,0 +1,11 @@
+# try:
+#     open("tmp/non-existing-file.tttt")
+# except IOError:
+#     print ("The file 'tmp/non-existing-file.tttt' does not exist")
+
+x = 0.
+if x == 0:
+    raise ZeroDivisionError
+else:
+    print("whatever")
+    # return 1/x
